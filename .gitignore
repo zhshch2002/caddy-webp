@@ -33,3 +33,4 @@ caddywebp.go
 go.mod
 go.sum
 index.html
+dist
