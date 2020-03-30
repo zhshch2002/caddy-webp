@@ -36,8 +36,8 @@ type Webp struct {
 
 func (Webp) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
-		Name: "http.handlers.webp",
-		New:  func() caddy.Module { return new(Webp) },
+		ID:  "http.handlers.webp",
+		New: func() caddy.Module { return new(Webp) },
 	}
 }
 
